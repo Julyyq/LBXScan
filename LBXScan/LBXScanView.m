@@ -88,7 +88,7 @@
     if (!_activityView)
     {
         self.activityView = [[UIActivityIndicatorView alloc]initWithFrame:CGRectMake(0, 0, 30, 30)];
-        [_activityView setCenter:CGPointMake(XRetangleLeft +  sizeRetangle.width/2 - 50, YMinRetangle + sizeRetangle.height/2)];
+        [_activityView setCenter:CGPointMake(XRetangleLeft +  sizeRetangle.width/2, YMinRetangle + sizeRetangle.height/2)];
         
         [_activityView setActivityIndicatorViewStyle:UIActivityIndicatorViewStyleWhiteLarge];
         [self addSubview:_activityView];
