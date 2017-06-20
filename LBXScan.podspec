@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/MxABC/LBXScan.git', :tag => s.version}
     s.requires_arc = true
-    s.source_files = 'LBXScan/*.{h,m,caf}'
+    s.source_files = 'LBXScan/*.{h,m}'
     s.prefix_header_contents = '#import <Foundation/Foundation.h>'
     s.dependency 'ZXingObjC', '~> 3.0'
+    s.resources = "LBXScan/Sounds/*.caf"
 end
