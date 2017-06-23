@@ -34,7 +34,7 @@
 		7DD97CFA1C206F7B006188B8 /* LBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD97B011C206F7B006188B8 /* LBXScanViewController.m */; };
 		7DD97CFB1C206F7B006188B8 /* LBXScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD97B031C206F7B006188B8 /* LBXScanViewStyle.m */; };
 		7DD97CFC1C206F7B006188B8 /* LBXScanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD97B051C206F7B006188B8 /* LBXScanWrapper.m */; };
-		9F2D3E7A1EF91371000B7042 /* photoShutter2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D3E791EF91371000B7042 /* photoShutter2.caf */; };
+		9F4830AF1EFD16C400068922 /* photoShutter2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9F4830AE1EFD16C400068922 /* photoShutter2.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,7 +89,7 @@
 		7DD97B041C206F7B006188B8 /* LBXScanWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanWrapper.h; sourceTree = "<group>"; };
 		7DD97B051C206F7B006188B8 /* LBXScanWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanWrapper.m; sourceTree = "<group>"; };
 		8EBEC9368F81ABE333506853 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F2D3E791EF91371000B7042 /* photoShutter2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = photoShutter2.caf; sourceTree = "<group>"; };
+		9F4830AE1EFD16C400068922 /* photoShutter2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = photoShutter2.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,7 +196,7 @@
 		9F2D3E781EF91371000B7042 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				9F2D3E791EF91371000B7042 /* photoShutter2.caf */,
+				9F4830AE1EFD16C400068922 /* photoShutter2.caf */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 				48AB50391BD7752B000AA3C5 /* LaunchScreen.storyboard in Resources */,
 				48BD039D1BE36278005779B2 /* logo.JPG in Resources */,
 				48AE455F1BFC1C5200E87F28 /* LBXScan.podspec in Resources */,
-				9F2D3E7A1EF91371000B7042 /* photoShutter2.caf in Resources */,
+				9F4830AF1EFD16C400068922 /* photoShutter2.caf in Resources */,
 				48AB50361BD7752B000AA3C5 /* Assets.xcassets in Resources */,
 				48AB56171BD78453000AA3C5 /* FirstViewController.xib in Resources */,
 				7DD97AC61C205345006188B8 /* CodeScan.bundle in Resources */,
