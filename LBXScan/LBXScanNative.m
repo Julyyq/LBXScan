@@ -311,14 +311,6 @@
 {
     AVCaptureConnection *stillImageConnection = [self connectionWithMediaType:AVMediaTypeVideo fromConnections:[[self stillImageOutput] connections]];
     
-    static SystemSoundID soundID = 0;
-    if (soundID == 0) {
-        NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"photoShutter2" ofType:@"caf"];
-        NSURL *filePath = [NSURL fileURLWithPath:path isDirectory:NO];
-        AudioServicesCreateSystemSoundID((__bridge CFURLRef)filePath, &soundID);
-    }
-    AudioServicesPlaySystemSound(soundID);
-    
     [[self stillImageOutput] captureStillImageAsynchronouslyFromConnection:stillImageConnection
                                                          completionHandler:^(CMSampleBufferRef imageDataSampleBuffer, NSError *error)
      {
