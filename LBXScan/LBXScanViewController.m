@@ -100,7 +100,7 @@
                                                           [weakSelf scanResultWithArray:array];
                                                       }];
             
-        [_scanObj setNeedCaptureImage:_isNeedScanImage];
+        //[_scanObj setNeedCaptureImage:_isNeedScanImage];
         
         [self cameraInitOver];
       
